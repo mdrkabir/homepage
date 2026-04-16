@@ -1,0 +1,10 @@
+﻿<svg width="128" height="128" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="LLM fine-tuning">
+  <rect x="14" y="14" width="100" height="100" rx="18" fill="#1f6f8d"/>
+  <rect x="28" y="34" width="72" height="12" rx="6" fill="#d8edf9"/>
+  <rect x="28" y="56" width="72" height="12" rx="6" fill="#ffffff"/>
+  <rect x="28" y="78" width="72" height="12" rx="6" fill="#d8edf9"/>
+  <path d="M44 28V94M64 28V94M84 28V94" stroke="#f8d59a" stroke-width="4" stroke-linecap="round" opacity="0.9"/>
+  <circle cx="44" cy="56" r="5" fill="#f8d59a"/>
+  <circle cx="64" cy="34" r="5" fill="#f8d59a"/>
+  <circle cx="84" cy="78" r="5" fill="#f8d59a"/>
+</svg>

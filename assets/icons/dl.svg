@@ -1,0 +1,8 @@
+﻿<svg width="128" height="128" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Deep learning icon">
+  <rect x="14" y="14" width="100" height="100" rx="18" fill="#1f6f8d"/>
+  <circle cx="36" cy="64" r="8" fill="#fff"/>
+  <circle cx="64" cy="44" r="8" fill="#fff"/>
+  <circle cx="64" cy="84" r="8" fill="#fff"/>
+  <circle cx="92" cy="64" r="8" fill="#fff"/>
+  <path d="M36 64L64 44L92 64L64 84L36 64" fill="none" stroke="#f8d59a" stroke-width="6"/>
+</svg>

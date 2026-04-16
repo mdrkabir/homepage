@@ -1,0 +1,10 @@
+﻿<svg width="128" height="128" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Machine learning">
+  <rect x="14" y="14" width="100" height="100" rx="18" fill="#1f6f8d"/>
+  <circle cx="36" cy="40" r="7" fill="#ffffff"/>
+  <circle cx="64" cy="32" r="7" fill="#ffffff"/>
+  <circle cx="92" cy="42" r="7" fill="#ffffff"/>
+  <circle cx="44" cy="84" r="7" fill="#ffffff"/>
+  <circle cx="82" cy="86" r="7" fill="#ffffff"/>
+  <path d="M36 40L64 32L92 42L82 86L44 84Z" fill="none" stroke="#f8d59a" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M52 62L76 54" stroke="#f8d59a" stroke-width="5" stroke-linecap="round"/>
+</svg>

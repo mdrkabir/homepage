@@ -1,0 +1,8 @@
+﻿<svg width="128" height="128" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Data mining">
+  <rect x="14" y="14" width="100" height="100" rx="18" fill="#1f6f8d"/>
+  <ellipse cx="54" cy="40" rx="20" ry="8" fill="#d8edf9"/>
+  <path d="M34 40V68C34 72 43 76 54 76C65 76 74 72 74 68V40" fill="#ffffff"/>
+  <ellipse cx="54" cy="68" rx="20" ry="8" fill="#d8edf9"/>
+  <circle cx="84" cy="78" r="13" fill="none" stroke="#f8d59a" stroke-width="6"/>
+  <path d="M92 86L102 96" stroke="#f8d59a" stroke-width="6" stroke-linecap="round"/>
+</svg>

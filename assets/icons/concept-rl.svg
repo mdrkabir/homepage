@@ -1,0 +1,9 @@
+﻿<svg width="128" height="128" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Reinforcement learning">
+  <rect x="14" y="14" width="100" height="100" rx="18" fill="#1f6f8d"/>
+  <path d="M38 64C38 49 49 38 64 38H75" fill="none" stroke="#ffffff" stroke-width="7" stroke-linecap="round"/>
+  <path d="M75 38L68 30L86 30Z" fill="#ffffff"/>
+  <path d="M90 64C90 79 79 90 64 90H53" fill="none" stroke="#f8d59a" stroke-width="7" stroke-linecap="round"/>
+  <path d="M53 90L60 98L42 98Z" fill="#f8d59a"/>
+  <circle cx="64" cy="64" r="12" fill="#d8edf9" stroke="#ffffff" stroke-width="4"/>
+  <text x="64" y="68" text-anchor="middle" font-size="11" font-family="Arial, sans-serif" fill="#1f6f8d" font-weight="700">R</text>
+</svg>

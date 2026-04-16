@@ -1,0 +1,8 @@
+﻿<svg width="128" height="128" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Resume icon">
+  <rect x="18" y="10" width="92" height="108" rx="12" fill="#0b4f7c"/>
+  <rect x="30" y="30" width="68" height="8" rx="4" fill="#ffffff"/>
+  <rect x="30" y="48" width="68" height="8" rx="4" fill="#d7e9f6"/>
+  <rect x="30" y="66" width="56" height="8" rx="4" fill="#d7e9f6"/>
+  <circle cx="45" cy="93" r="11" fill="#f4c48c"/>
+  <rect x="60" y="84" width="30" height="18" rx="5" fill="#f4c48c"/>
+</svg>

@@ -1,0 +1,5 @@
+﻿<svg width="128" height="128" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Email icon">
+  <rect x="12" y="24" width="104" height="80" rx="12" fill="#0b4f7c"/>
+  <path d="M22 40L64 72L106 40" fill="none" stroke="#ffffff" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M24 94L52 66M104 94L76 66" fill="none" stroke="#d8eaf8" stroke-width="6" stroke-linecap="round"/>
+</svg>
