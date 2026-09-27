@@ -1,482 +1,637 @@
-﻿<!doctype html>
+<!doctype html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Md Rysul Kabir - Computer Science PhD researcher focused on reinforcement learning, LLM training, and cognitive modeling.">
-  <title>Md Rysul Kabir | Applied ML & RL</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:wght@500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <meta name="description" content="Md Rysul Kabir is an AI researcher and engineer working on LLM safety, reinforcement learning, Bayesian modeling, and reliable learning systems.">
+  <meta name="theme-color" content="#0d0e0e">
+  <title>Md Rysul Kabir | AI Researcher &amp; Engineer</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <script>document.documentElement.classList.add('js');</script>
   <link rel="stylesheet" href="styles.css">
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "Md Rysul Kabir",
+      "jobTitle": "AI Researcher and Engineer",
+      "affiliation": {
+        "@type": "CollegeOrUniversity",
+        "name": "Indiana University Bloomington"
+      },
+      "sameAs": [
+        "https://www.linkedin.com/in/mdrysulkabir/",
+        "https://github.com/mdrkabir",
+        "https://scholar.google.com/citations?user=-BT9-3AAAAAJ&hl=en"
+      ]
+    }
+  </script>
 </head>
 <body>
+  <a class="skip-link" href="#main-content">Skip to content</a>
+  <div class="scroll-progress" aria-hidden="true"><span></span></div>
+
   <header class="site-header">
-    <div class="container nav-wrap">
-      <a class="brand" href="#top" aria-label="Home">
-        <img class="site-logo" src="assets/logo-ai.svg" alt="AI researcher logo">
+    <div class="shell nav-shell">
+      <a class="wordmark" href="#top" aria-label="Md Rysul Kabir, home">
+        <span>MRK</span>
+        <i aria-hidden="true"></i>
       </a>
-      <button class="menu-toggle" aria-expanded="false" aria-controls="site-nav" aria-label="Toggle navigation">
+
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav" aria-label="Open navigation">
         <span></span>
         <span></span>
       </button>
-      <nav id="site-nav" class="site-nav">
-        <a href="#experience">Experience</a>
-        <a href="#projects">Projects</a>
-        <a href="#publications">Publications</a>
-        <a href="#posters">Posters</a>
-        <a href="#service">Service</a>
-        <a href="#skills">Skills</a>
-        <a href="#education">Education</a>
-        <a href="#awards">Awards</a>
+
+      <nav class="site-nav" id="site-nav" aria-label="Primary navigation">
+        <div class="nav-menu">
+          <button class="nav-menu-button" type="button" aria-expanded="false" aria-controls="research-menu" data-scramble-control aria-label="Research menu">
+            <span data-scramble-target>Research</span><i aria-hidden="true"></i>
+          </button>
+          <div class="nav-panel" id="research-menu">
+            <p class="nav-panel-label">Research</p>
+            <a href="#selected-work" data-scramble-control aria-label="Selected research — Featured projects and results"><span>01</span><div><strong><span data-scramble-target>Selected research</span></strong><small>Featured projects and results</small></div></a>
+            <a href="#publications" data-scramble-control aria-label="Publications — Papers and thesis work"><span>02</span><div><strong><span data-scramble-target>Publications</span></strong><small>Papers and thesis work</small></div></a>
+          </div>
+        </div>
+
+        <div class="nav-menu">
+          <button class="nav-menu-button" type="button" aria-expanded="false" aria-controls="profile-menu" data-scramble-control aria-label="Profile menu">
+            <span data-scramble-target>Profile</span><i aria-hidden="true"></i>
+          </button>
+          <div class="nav-panel" id="profile-menu">
+            <p class="nav-panel-label">Academic profile</p>
+            <a href="#experience" data-scramble-control aria-label="Experience — Research and teaching"><span>03</span><div><strong><span data-scramble-target>Experience</span></strong><small>Research and teaching</small></div></a>
+            <a href="#projects" data-scramble-control aria-label="Projects — Technical work and implementations"><span>04</span><div><strong><span data-scramble-target>Projects</span></strong><small>Technical work and implementations</small></div></a>
+            <a href="#profile" data-scramble-control aria-label="Education and presentations — Academic background"><span>05</span><div><strong><span data-scramble-target>Education &amp; presentations</span></strong><small>Academic background</small></div></a>
+          </div>
+        </div>
+
+        <div class="nav-menu">
+          <button class="nav-menu-button" type="button" aria-expanded="false" aria-controls="recognition-menu" data-scramble-control aria-label="Recognition menu">
+            <span data-scramble-target>Recognition</span><i aria-hidden="true"></i>
+          </button>
+          <div class="nav-panel nav-panel-compact" id="recognition-menu">
+            <p class="nav-panel-label">Community &amp; recognition</p>
+            <a href="#service" data-scramble-control aria-label="Academic service — Peer review"><span>06</span><div><strong><span data-scramble-target>Academic service</span></strong><small>Peer review</small></div></a>
+            <a href="#achievements" data-scramble-control aria-label="Awards and honors — Selected distinctions"><span>07</span><div><strong><span data-scramble-target>Awards &amp; honors</span></strong><small>Selected distinctions</small></div></a>
+          </div>
+        </div>
+
+        <a class="nav-link" href="#contact" data-scramble-control aria-label="Contact"><span data-scramble-target>Contact</span></a>
+        <a class="nav-link" href="assets/Md_Rysul_Kabir_CV.pdf" target="_blank" rel="noopener" data-scramble-control aria-label="Open Academic CV PDF in a new tab"><span data-scramble-target>Academic CV</span></a>
+        <a class="nav-cta" href="assets/Md_Rysul_Kabir_resume.pdf" target="_blank" rel="noopener" data-scramble-control aria-label="Open Résumé PDF in a new tab">
+          <span data-scramble-target>Résumé</span><i aria-hidden="true">↗</i>
+        </a>
       </nav>
     </div>
   </header>
 
-  <main id="top">
-    <section class="hero">
-      <div class="hero-copy reveal">
-        <div class="hero-main">
-          <div class="hero-text">
-            <p class="eyebrow">Computer Science PhD Researcher</p>
-            <h1>Md Rysul Kabir</h1>
-            <p class="lead">
-              I am a Ph.D. student in Computer Science at Indiana University Bloomington, advised by <a href="http://homes.luddy.indiana.edu/ztiganj/" target="_blank" rel="noopener noreferrer">Dr. Zoran Tiganj</a>. I build machine learning systems at the intersection of reinforcement learning, LLM fine-tuning, and
-              Bayesian modeling, with a focus on principled methods, reproducible implementation, and measurable impact.
-            </p>
-            <div class="chip-row">
-              <span class="chip">Reinforcement Learning</span>
-              <span class="chip">LLM Fine-Tuning</span>
-              <span class="chip">Bayesian Modeling</span>
+  <main id="main-content">
+    <section class="hero-section" id="top">
+      <div class="hero-field" aria-hidden="true">
+        <span></span><span></span><span></span><span></span><span></span>
+      </div>
+
+      <div class="shell hero-grid">
+        <div class="hero-copy reveal">
+          <p class="eyebrow"><span>AI RESEARCH</span> / APPLIED ML / ENGINEERING</p>
+          <h1>
+            <span class="hero-name">Md Rysul Kabir</span>
+          </h1>
+          <p class="hero-lede">
+            I am a Computer Science Ph.D. researcher at Indiana University Bloomington. I develop models,
+            evaluation methods, and research software for LLM safety, reinforcement learning, and Bayesian
+            cognitive modeling.
+          </p>
+
+          <div class="hero-actions">
+            <a class="button button-primary" href="#selected-work" data-scramble-control aria-label="View research"><span class="button-label" data-scramble-target>View research</span><span aria-hidden="true">↓</span></a>
+            <a class="button" href="assets/Md_Rysul_Kabir_resume.pdf" target="_blank" rel="noopener" data-scramble-control aria-label="Open Résumé PDF in a new tab"><span class="button-label" data-scramble-target>Résumé</span><span aria-hidden="true">↗</span></a>
+            <a class="button" href="assets/Md_Rysul_Kabir_CV.pdf" target="_blank" rel="noopener" data-scramble-control aria-label="Open Academic CV PDF in a new tab"><span class="button-label" data-scramble-target>Academic CV</span><span aria-hidden="true">↗</span></a>
+          </div>
+
+          <div class="profile-links" aria-label="External profiles">
+            <a href="https://scholar.google.com/citations?user=-BT9-3AAAAAJ&hl=en" target="_blank" rel="noopener">Google Scholar <span aria-hidden="true">↗</span></a>
+            <a href="https://github.com/mdrkabir" target="_blank" rel="noopener">GitHub <span aria-hidden="true">↗</span></a>
+            <a href="https://www.linkedin.com/in/mdrysulkabir/" target="_blank" rel="noopener">LinkedIn <span aria-hidden="true">↗</span></a>
+          </div>
+        </div>
+
+        <aside class="hero-aside reveal" aria-label="Research profile">
+          <figure class="portrait-frame">
+            <img src="assets/rysul-portrait.jpg" alt="Portrait of Md Rysul Kabir" width="492" height="538" decoding="async" fetchpriority="high">
+            <figcaption><span>MRK / 01</span><span>Bloomington, IN</span></figcaption>
+          </figure>
+
+          <div class="focus-panel">
+            <div class="focus-heading">
+              <span class="status-dot" aria-hidden="true"></span>
+              <p>Current focus</p>
             </div>
-            <div class="action-row">
-              <a class="action-btn" href="https://github.com/mdrkabir" target="_blank" rel="noopener">
-                <img class="brand-logo" src="assets/icons/github.svg" alt="">
-                <span>GitHub</span>
-              </a>
-              <a class="action-btn" href="https://www.linkedin.com/in/mdrysulkabir/" target="_blank" rel="noopener">
-                <img class="brand-logo" src="assets/icons/linkedin.svg" alt="">
-                <span>LinkedIn</span>
-              </a>
-              <a class="action-btn" href="https://scholar.google.com/citations?user=-BT9-3AAAAAJ&hl=en" target="_blank" rel="noopener">
-                <img class="brand-logo" src="assets/icons/googlescholar.svg" alt="">
-                <span>Google Scholar</span>
-              </a>
-              <a class="action-btn" href="Md_Rysul_Kabir_resume.pdf" target="_blank" rel="noopener">
-                <img class="brand-logo" src="assets/icons/resume.svg" alt="">
-                <span>Resume</span>
-              </a>
-              <a class="action-btn" href="mailto:rysulbuet12@gmail.com">
-                <img class="brand-logo" src="assets/icons/email.svg" alt="">
-                <span>Contact</span>
-              </a>
+            <dl>
+              <div><dt>01</dt><dd>LLM safety and post-training</dd></div>
+              <div><dt>02</dt><dd>Reinforcement learning and temporal memory</dd></div>
+              <div><dt>03</dt><dd>Bayesian cognitive modeling</dd></div>
+            </dl>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <section class="signal-strip" aria-label="Research areas">
+      <div class="shell signal-grid">
+        <div><span>01</span><strong>LLM Safety</strong><small>Post-training, evaluation, and repair</small></div>
+        <div><span>02</span><strong>Reinforcement Learning</strong><small>Temporal memory and decision-making</small></div>
+        <div><span>03</span><strong>Bayesian Modeling</strong><small>Interpretable models of behavior</small></div>
+        <div><span>04</span><strong>AI Engineering</strong><small>Reproducible training and evaluation systems</small></div>
+      </div>
+    </section>
+
+    <section class="section-band selected-work-section" id="selected-work">
+      <div class="shell">
+        <div class="wide-heading reveal">
+          <p class="section-label">01 / Selected research</p>
+          <h2>Research Highlights</h2>
+          <p>Selected work in LLM safety, temporal modeling, interpretable reinforcement learning, and Bayesian inference.</p>
+        </div>
+
+        <div class="work-list">
+          <article class="work-card reveal">
+            <div class="work-copy">
+              <div class="work-meta"><span>2026</span><span>LLM safety</span><span>Preprint</span></div>
+              <h3>Different Paths to Harmful Compliance</h3>
+              <p class="work-subtitle">Behavioral Side Effects and Mechanistic Divergence Across LLM Jailbreaks</p>
+              <p>
+                This work compares harmful SFT, RLVR, and abliteration as three routes to unsafe model behavior.
+                It evaluates both behavioral outcomes and internal representations, using CKA/RSA and refusal-repair
+                probes to distinguish broad representational drift from targeted policy changes.
+              </p>
+              <div class="tag-row"><span>RLVR</span><span>SFT</span><span>Abliteration</span><span>Representation analysis</span></div>
+              <div class="work-links">
+                <a class="text-link" href="https://arxiv.org/abs/2604.18510" target="_blank" rel="noopener">Read paper <span aria-hidden="true">↗</span></a>
+              </div>
             </div>
+
+            <div class="work-visual safety-visual" aria-label="Diagram showing three intervention routes leading to harmful compliance and different internal outcomes">
+              <svg viewBox="0 0 520 330" role="img" aria-hidden="true">
+                <defs>
+                  <marker id="arrow-coral" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto">
+                    <path d="M0,0 L8,4 L0,8 Z" fill="#ff5a3d"/>
+                  </marker>
+                </defs>
+                <g class="svg-grid">
+                  <path d="M0 55H520M0 110H520M0 165H520M0 220H520M0 275H520"/>
+                  <path d="M86 0V330M173 0V330M260 0V330M347 0V330M434 0V330"/>
+                </g>
+                <text x="28" y="30" class="svg-label">INTERVENTION ROUTES</text>
+                <g class="route-node"><rect x="28" y="70" width="112" height="46"/><text x="84" y="99">SFT</text></g>
+                <g class="route-node"><rect x="204" y="70" width="112" height="46"/><text x="260" y="99">RLVR</text></g>
+                <g class="route-node"><rect x="380" y="70" width="112" height="46"/><text x="436" y="99">ABLITERATION</text></g>
+                <path class="route-line" d="M84 116V161H260" marker-end="url(#arrow-coral)"/>
+                <path class="route-line" d="M260 116V161" marker-end="url(#arrow-coral)"/>
+                <path class="route-line" d="M436 116V161H260" marker-end="url(#arrow-coral)"/>
+                <g class="outcome-node"><rect x="174" y="175" width="172" height="54"/><text x="260" y="198">SIMILAR OUTCOME</text><text x="260" y="216">HARMFUL COMPLIANCE</text></g>
+                <path class="branch-line" d="M260 229V255H86V272"/>
+                <path class="branch-line" d="M260 255V272"/>
+                <path class="branch-line" d="M260 255H434V272"/>
+                <text x="86" y="303" class="svg-result">DRIFT</text>
+                <text x="260" y="303" class="svg-result">POLICY</text>
+                <text x="434" y="303" class="svg-result">REFUSAL</text>
+              </svg>
+            </div>
+          </article>
+
+          <article class="work-card reveal">
+            <div class="work-copy">
+              <div class="work-meta"><span>2025</span><span>Reinforcement learning</span><span>AAAI</span></div>
+              <h3>Deep Reinforcement Learning with Time-Scale Invariant Memory</h3>
+              <p>
+                This project develops a cognitively inspired memory architecture for temporal decision-making. The
+                agent is designed to generalize across timing regimes instead of overfitting to the scale used during
+                training.
+              </p>
+              <div class="tag-row"><span>Deep RL</span><span>Temporal memory</span><span>Cognitive AI</span></div>
+              <div class="work-links">
+                <a class="text-link" href="https://ojs.aaai.org/index.php/AAAI/article/view/32124" target="_blank" rel="noopener">AAAI article <span aria-hidden="true">↗</span></a>
+                <a class="text-link" href="https://mdrkabir.github.io/DRL-Time-Scale-Invariant-Memory/" target="_blank" rel="noopener">Project <span aria-hidden="true">↗</span></a>
+                <a class="text-link" href="https://github.com/cogneuroai/RL-with-scale-invariant-memory" target="_blank" rel="noopener">Code <span aria-hidden="true">↗</span></a>
+              </div>
+            </div>
+
+            <div class="work-visual time-visual" aria-label="Diagram of one temporal memory represented at multiple scales">
+              <svg viewBox="0 0 520 330" role="img" aria-hidden="true">
+                <g class="svg-grid">
+                  <path d="M0 55H520M0 110H520M0 165H520M0 220H520M0 275H520"/>
+                  <path d="M86 0V330M173 0V330M260 0V330M347 0V330M434 0V330"/>
+                </g>
+                <text x="28" y="30" class="svg-label">TEMPORAL MEMORY / LOG-SCALED</text>
+                <line x1="48" y1="265" x2="475" y2="265" class="axis-line"/>
+                <text x="48" y="292" class="svg-tick">NOW</text>
+                <text x="445" y="292" class="svg-tick">PAST</text>
+                <g class="time-trace trace-1"><path d="M48 265 C76 264, 76 123, 105 123 C134 123, 134 265, 163 265"/></g>
+                <g class="time-trace trace-2"><path d="M82 265 C122 263, 122 157, 162 157 C202 157, 202 265, 242 265"/></g>
+                <g class="time-trace trace-3"><path d="M138 265 C192 263, 192 187, 246 187 C300 187, 300 265, 354 265"/></g>
+                <g class="time-trace trace-4"><path d="M220 265 C284 263, 284 210, 348 210 C412 210, 412 265, 476 265"/></g>
+                <circle cx="105" cy="123" r="5" class="trace-dot"/>
+                <circle cx="162" cy="157" r="5" class="trace-dot"/>
+                <circle cx="246" cy="187" r="5" class="trace-dot"/>
+                <circle cx="348" cy="210" r="5" class="trace-dot"/>
+                <text x="66" y="87" class="svg-result left">FINE</text>
+                <text x="405" y="87" class="svg-result">COARSE</text>
+              </svg>
+            </div>
+          </article>
+
+          <article class="work-card reveal">
+            <div class="work-copy">
+              <div class="work-meta"><span>2025</span><span>Bayesian cognition</span><span>Science Advances</span></div>
+              <h3>Path Integration Impairments Reveal Early Cognitive Changes</h3>
+              <p>
+                This work uses a hierarchical Bayesian model to separate path-integration errors into interpretable
+                components and estimate group differences between participants with subjective cognitive decline and
+                control participants.
+              </p>
+              <div class="tag-row"><span>NumPyro</span><span>Hierarchical Bayes</span><span>Navigation</span></div>
+              <div class="work-links">
+                <a class="text-link" href="https://www.science.org/doi/10.1126/sciadv.adw6404" target="_blank" rel="noopener">Science Advances <span aria-hidden="true">↗</span></a>
+                <a class="text-link" href="https://github.com/cogneuroai/Bayesian-hierarchical-model-for-PI" target="_blank" rel="noopener">Code <span aria-hidden="true">↗</span></a>
+              </div>
+            </div>
+
+            <div class="work-visual bayes-visual">
+              <img
+                class="research-graphic-image"
+                src="assets/path-integration-hierarchical-inference.webp"
+                width="1572"
+                height="1001"
+                loading="lazy"
+                decoding="async"
+                alt="Hierarchical Bayesian inference diagram. Person-level parameters are alpha for gain, beta for leak, bold b for bias, and sigma zero and sigma d for noise. Group-level parameters are gamma for the mean and tau for the standard deviation."
+              >
+            </div>
+          </article>
+        </div>
+
+        <div class="research-support reveal" aria-label="Additional research highlights">
+          <div class="research-support-heading">
+            <span>Additional research</span>
+            <p>Earlier work in temporal modeling, cognitive reinforcement learning, and interpretable representations.</p>
           </div>
 
-          <aside class="hero-photo">
-            <img src="assets/rysul.jpg" alt="Portrait for Md Rysul Kabir">
-          </aside>
-        </div>
-      </div>
-    </section>
+          <div class="research-support-grid">
+            <article class="research-support-card">
+              <div class="research-support-meta"><span>2026</span><span>Computational Brain &amp; Behavior</span></div>
+              <h3>Time-Local Transformer</h3>
+              <p>Integrated a log-compressed working-memory timeline into a Transformer, allowing it to learn long-range sequence dependencies without direct access to the full input history.</p>
+              <footer><span>Transformers · Working memory</span><a href="https://link.springer.com/article/10.1007/s42113-025-00253-9" target="_blank" rel="noopener">Paper ↗</a></footer>
+            </article>
 
-    <section id="experience" class="section container reveal collapsible-section is-open">
-      <button class="section-toggle" type="button" aria-expanded="true" aria-controls="experience-content">
-        <span>Research & Professional Experience</span>
-        <span class="toggle-glyph" aria-hidden="true"></span>
-      </button>
-      <div id="experience-content" class="section-content">
-        <div class="section-inner">
-          <div class="timeline">
-            <article class="timeline-item">
-              <header>
-                <h3>Research Assistant, Indiana University Bloomington</h3>
-                <p>Aug 2021 - Present | Bloomington, IN</p>
-              </header>
-              <ul>
-                <li>Designed a deep RL agent with time-scale invariant memory for complex temporal decision tasks (AAAI 2025).</li>
-                <li>Implemented Bayesian hierarchical inference pipelines in NumPyro for cognitive path integration datasets (Science Advances 2025).</li>
-                <li>Enhanced LLM post-training workflows by extending VERL with custom RLHF reward and rollout computation.</li>
-              </ul>
+            <article class="research-support-card">
+              <div class="research-support-meta"><span>2024</span><span>CogSci</span></div>
+              <h3>Evidence Accumulation in Deep RL</h3>
+              <p>Embedded a cognitive model of sequential neural activity in deep RL agents trained on an evidence-accumulation task, producing task-related activity similar to neural sequences reported in the hippocampus.</p>
+              <footer><span>Deep RL · Cognitive modeling</span><a href="https://escholarship.org/uc/item/02j067v8" target="_blank" rel="noopener">Paper ↗</a></footer>
             </article>
-            <article class="timeline-item">
-              <header>
-                <h3>Associate Instructor / Head TA, Indiana University Bloomington</h3>
-                <p>Aug 2021 - Present | Bloomington, IN</p>
-              </header>
-              <ul>
-                <li>Head TA for Data Mining, including exam/homework design and grading coordination.</li>
-                <li>Teaching support for Machine Learning, Applied ML, and Applied Algorithms.</li>
-              </ul>
-            </article>
-            <article class="timeline-item">
-              <header>
-                <h3>Research Assistant, University of Texas Rio Grande Valley</h3>
-                <p>Aug 2019 - Jul 2021 | Edinburg, TX</p>
-              </header>
-              <ul>
-                <li>Proposed Saltatory Rewards and integrated GAE into A2C, yielding 1.5x faster convergence for human-like motion learning.</li>
-                <li>Implemented PPO, TRPO, A2C, and DQN from scratch to benchmark policy and value-based RL behavior.</li>
-              </ul>
-            </article>
-            <article class="timeline-item">
-              <header>
-                <h3>Research Assistant, Missouri University of Science and Technology</h3>
-                <p>Fall 2018 - Spring 2019 | Rolla, MO</p>
-              </header>
-              <ul>
-                <li>Worked on thermoplasmon-induced fluid convection and bubble generation.</li>
-              </ul>
-            </article>
-          </div>
-        </div>
-      </div>
-    </section>
 
-    <section id="projects" class="section container reveal collapsible-section">
-      <button class="section-toggle" type="button" aria-expanded="false" aria-controls="projects-content">
-        <span>Projects</span>
-        <span class="toggle-glyph" aria-hidden="true"></span>
-      </button>
-      <div id="projects-content" class="section-content">
-        <div class="section-inner">
-          <div class="project-list">
-            <article class="project-item">
-              <div class="project-head">
-                <h3>Learning different timing tasks using cognitively inspired RL models</h3>
-                <p>Python | PyTorch | Gymnasium | PyBullet | NumPy</p>
-              </div>
-              <ul>
-                <li>Developed cognitively inspired RL agents for temporal bisection, temporal discrimination, and temporal reproduction tasks.</li>
-              </ul>
+            <article class="research-support-card">
+              <div class="research-support-meta"><span>2023</span><span>NeurReps</span></div>
+              <h3>Geometry of Learned Knowledge</h3>
+              <p>Used manifold learning to show that a deep RL agent's activity forms a low-dimensional space organized by task-relevant variables, providing an interpretable view of its decision process.</p>
+              <footer><span>Manifold learning · Interpretability</span><a href="https://proceedings.mlr.press/v228/mochizuki-freeman24a.html" target="_blank" rel="noopener">Paper ↗</a></footer>
             </article>
-            <article class="project-item">
-              <div class="project-head">
-                <h3>Building cognitive models for a path integration (PI) task</h3>
-                <p>Python | NumPyro | NumPy | Pandas | Matplotlib</p>
-              </div>
-              <ul>
-                <li>Built maximum-likelihood and Bayesian hierarchical inference models for path integration datasets.</li>
-              </ul>
-            </article>
-            <article class="project-item">
-              <div class="project-head">
-                <h3>Effects of Saltatory Rewards and GAE on human-like motion RL</h3>
-                <p>Python | Reinforcement Learning | A2C</p>
-              </div>
-              <ul>
-                <li>Introduced Saltatory Rewards and integrated GAE into A2C, delivering 1.5x faster convergence. <a href="https://scholarworks.utrgv.edu/etd/899/" target="_blank" rel="noopener">Thesis</a></li>
-              </ul>
-            </article>
-            <article class="project-item">
-              <div class="project-head">
-                <h3>Implementation of state-of-the-art reinforcement learning algorithms</h3>
-                <p>Python | TensorFlow | Gym | NumPy | Pandas | Ray</p>
-              </div>
-              <ul>
-                <li>Implemented PPO, TRPO, A2C, and DQN from scratch for controlled benchmarking. <a href="https://github.com/mdrkabir/Policy_Gradient_Methods" target="_blank" rel="noopener">PGRL</a> | <a href="https://github.com/mdrkabir/Temporal_Difference_Learning" target="_blank" rel="noopener">TDRL</a></li>
-              </ul>
-            </article>
-            <article class="project-item">
-              <div class="project-head">
-                <h3>COVID-19 Literature Mining & Clustering</h3>
-                <p>Python | scikit-learn | NLP</p>
-              </div>
-              <ul>
-                <li>Analyzed 340K+ CORD-19 papers with TF-IDF, PCA/t-SNE, K-Means, GMM, LDA, and NMF to extract latent themes.</li>
-              </ul>
-            </article>
-            <article class="project-item">
-              <div class="project-head">
-                <h3>Adversarial Game Playing Agent (Raichu)</h3>
-                <p>Python | Minimax | Alpha-Beta Pruning</p>
-              </div>
-              <ul>
-                <li>Engineered a chess-variant game agent with custom heuristics for fast adversarial decision-making under time constraints.</li>
-              </ul>
-            </article>
-            <article class="project-item">
-              <div class="project-head">
-                <h3>Gaussian Process Regression & Kernel Methods</h3>
-                <p>Python | NumPy | Matplotlib</p>
-              </div>
-              <ul>
-                <li>Implemented Gaussian Processes with RBF and polynomial kernels and optimized hyperparameters via log-evidence ascent.</li>
-              </ul>
-            </article>
-            <article class="project-item">
-              <div class="project-head">
-                <h3>Home Needs Services - an online marketplace for home services</h3>
-                <p>SQL | JavaScript | MySQL | NodeJS | AngularJS | AWS</p>
-              </div>
-              <ul>
-                <li>Designed database architecture and platform mechanics to match customers with local service providers. <a href="https://github.com/jsCoder020193/home-needs-services-frontend" target="_blank" rel="noopener">Frontend</a> | <a href="https://github.com/jsCoder020193/home-needs-backend" target="_blank" rel="noopener">Backend</a></li>
-              </ul>
-            </article>
-            <article class="project-item">
-              <div class="project-head">
-                <h3>Humanoid Biped: a custom Gym environment for RL</h3>
-                <p>Python | Gym | PyBullet | NumPy</p>
-              </div>
-              <ul>
-                <li>Built a continuous-control environment with Box(12) action and Box(32) observation spaces for locomotion learning. <a href="https://github.com/Rysul119/HumanoidBiped" target="_blank" rel="noopener">Code</a></li>
-              </ul>
-            </article>
-            <article class="project-item">
-              <div class="project-head">
-                <h3>RSA - a public key cryptography system</h3>
-                <p>C++ | Boost C++</p>
-              </div>
-              <ul>
-                <li>Implemented RSA with Euclid and extended Euclid algorithms plus randomized primality testing. <a href="https://github.com/Rysul119/Cryptography_RSA" target="_blank" rel="noopener">Code</a></li>
-              </ul>
-            </article>
-            <article class="project-item">
-              <div class="project-head">
-                <h3>Particle Tracking Velocimetry</h3>
-                <p>Python | NumPy | Pandas | Matplotlib | TrackPy</p>
-              </div>
-              <ul>
-                <li>Estimated tracer particle velocities from video-frame trajectories using Euclidean displacement and time-step analysis. <a href="https://github.com/Rysul119/Velocity-Calculation-from-Tracked-Particles" target="_blank" rel="noopener">Velocity Calculation</a> | <a href="https://github.com/Rysul119/Calculating-Velocity-within-a-Certain-Radial-Distance-from-Tracked-Particles" target="_blank" rel="noopener">Within Radius</a></li>
-              </ul>
-            </article>
-            <article class="project-item">
-              <div class="project-head">
-                <h3>Improvement of film cooling effectiveness of a gas turbine blade by using an upstream ramp</h3>
-                <p>FEM | COMSOL/CFD Simulation</p>
-              </div>
-              <ul>
-                <li>Modeled a 3D film-cooling optimization problem for gas turbine blades using simulation-driven analysis.</li>
-              </ul>
-            </article>
-            <article class="project-item">
-              <div class="project-head">
-                <h3>Fabrication of a CNC Plotter</h3>
-                <p>ATmega328P | L293D | Servo/Stepper Control | Processing</p>
-              </div>
-              <ul>
-                <li>Built a 2D plotter prototype with embedded control and motion execution pipelines.</li>
-              </ul>
+
+            <article class="research-support-card">
+              <div class="research-support-meta"><span>2021</span><span>Master's thesis</span></div>
+              <h3>Humanlike Motion with Saltatory Rewards</h3>
+              <p>Studied reward design and advantage estimation for physics-based character control by comparing modified PPO and A2C methods in a custom PyBullet humanoid environment.</p>
+              <footer><span>PPO · A2C · GAE · PyBullet</span><a href="https://scholarworks.utrgv.edu/etd/899/" target="_blank" rel="noopener">Thesis ↗</a></footer>
             </article>
           </div>
         </div>
       </div>
     </section>
 
-    <section id="publications" class="section container reveal collapsible-section">
-      <button class="section-toggle" type="button" aria-expanded="false" aria-controls="publications-content">
-        <span>Publications</span>
-        <span class="toggle-glyph" aria-hidden="true"></span>
-      </button>
-      <div id="publications-content" class="section-content">
-        <div class="section-inner">
-          <ol class="pub-list">
-            <li>Vladislava Segen, <strong>Md Rysul Kabir</strong>, Adam Streck, Jakub Slavik, Wenzel Glanz, Michaela Butryn, Ehren Newman, Zoran Tiganj, Thomas Wolbers. <strong>Path integration impairments reveal early cognitive changes in subjective cognitive decline</strong>, Science Advances, 2025. DOI: 10.1126/sciadv.adw6404.</li>
-            <li>Billy Dickson, James Mochizuki-Freeman, <strong>Md Rysul Kabir</strong>, Zoran Tiganj. <strong>Time-local transformer</strong>, Computational Brain and Behavior (Special Issue), 2025.</li>
-            <li><strong>Md Rysul Kabir</strong>, James Mochizuki-Freeman, Zoran Tiganj. <strong>Deep reinforcement learning with time-scale invariant memory</strong>, AAAI 2025.</li>
-            <li>James Mochizuki-Freeman, <strong>Md Rysul Kabir</strong>, Zoran Tiganj. <strong>Incorporating a cognitive model for evidence accumulation into deep reinforcement learning agents</strong>, Proceedings of the Annual Meeting of the Cognitive Science Society, 2024.</li>
-            <li>James Mochizuki-Freeman, <strong>Md Rysul Kabir</strong>, Zoran Tiganj. <strong>Geometry of abstract learned knowledge in deep RL agents</strong>, NeurIPS 2023 Workshop on Symmetry and Geometry in Neural Representations.</li>
-            <li><strong>Md Rysul Kabir</strong>. <strong>Effects of Saltatory Rewards and Generalized Advantage Estimation on Reference-Based Deep Reinforcement Learning of Humanlike Motions</strong>, Theses and Dissertations, 899, 2021.</li>
-            <li><strong>Md Rysul Kabir</strong>, Md. Salman Rabbi Limon, Sumon Saha, Mohammad Nasim Hasan. <strong>Increasing Film Cooling Effectiveness of a Gas Turbine Blade by Using an Upstream Ramp</strong>, AIP Conference Proceedings 1980, 050031, 2018.</li>
+    <section class="section-band" id="publications">
+      <div class="shell section-layout">
+        <div class="section-intro reveal">
+          <p class="section-label">02 / Publications</p>
+          <h2>Publications</h2>
+          <p>Peer-reviewed articles, conference papers, preprints, and thesis work.</p>
+          <a class="text-link section-link" href="https://scholar.google.com/citations?user=-BT9-3AAAAAJ&hl=en" target="_blank" rel="noopener">View on Google Scholar <span aria-hidden="true">↗</span></a>
+        </div>
+
+        <ol class="publication-list">
+          <li class="publication-row reveal">
+            <span class="publication-index">01</span><time>2026</time>
+            <div><h3>Different Paths to Harmful Compliance: Behavioral Side Effects and Mechanistic Divergence Across LLM Jailbreaks</h3><p><strong>M. R. Kabir</strong> and Z. Tiganj · arXiv:2604.18510</p></div>
+            <a href="https://arxiv.org/abs/2604.18510" target="_blank" rel="noopener" aria-label="Open Different Paths to Harmful Compliance">↗</a>
+          </li>
+          <li class="publication-row reveal">
+            <span class="publication-index">02</span><time>2026</time>
+            <div><h3>Time-Local Transformer</h3><p>B. Dickson, J. Mochizuki-Freeman, <strong>M. R. Kabir</strong>, and Z. Tiganj · Computational Brain &amp; Behavior</p></div>
+            <a href="https://link.springer.com/article/10.1007/s42113-025-00253-9" target="_blank" rel="noopener" aria-label="Open Time-Local Transformer">↗</a>
+          </li>
+          <li class="publication-row reveal">
+            <span class="publication-index">03</span><time>2025</time>
+            <div><h3>Deep Reinforcement Learning with Time-Scale Invariant Memory</h3><p><strong>M. R. Kabir</strong>, J. Mochizuki-Freeman, and Z. Tiganj · AAAI</p></div>
+            <a href="https://ojs.aaai.org/index.php/AAAI/article/view/32124" target="_blank" rel="noopener" aria-label="Open Deep Reinforcement Learning with Time-Scale Invariant Memory">↗</a>
+          </li>
+          <li class="publication-row reveal">
+            <span class="publication-index">04</span><time>2025</time>
+            <div><h3>Path Integration Impairments Reveal Early Cognitive Changes in Subjective Cognitive Decline</h3><p>V. Segen, <strong>M. R. Kabir</strong>, et al. · Science Advances</p></div>
+            <a href="https://www.science.org/doi/10.1126/sciadv.adw6404" target="_blank" rel="noopener" aria-label="Open Path Integration Impairments Reveal Early Cognitive Changes">↗</a>
+          </li>
+          <li class="publication-row reveal">
+            <span class="publication-index">05</span><time>2024</time>
+            <div><h3>Incorporating a Cognitive Model for Evidence Accumulation into Deep Reinforcement Learning Agents</h3><p>J. Mochizuki-Freeman, <strong>M. R. Kabir</strong>, and Z. Tiganj · Proceedings of the Annual Meeting of the Cognitive Science Society</p></div>
+            <a href="https://escholarship.org/uc/item/02j067v8" target="_blank" rel="noopener" aria-label="Open Incorporating a Cognitive Model for Evidence Accumulation into Deep Reinforcement Learning Agents">↗</a>
+          </li>
+          <li class="publication-row reveal">
+            <span class="publication-index">06</span><time>2023</time>
+            <div><h3>Geometry of Abstract Learned Knowledge in Deep RL Agents</h3><p>J. Mochizuki-Freeman, <strong>M. R. Kabir</strong>, M. Gulecha, and Z. Tiganj · NeurIPS Workshop on Symmetry and Geometry in Neural Representations</p></div>
+            <a href="https://proceedings.mlr.press/v228/mochizuki-freeman24a.html" target="_blank" rel="noopener" aria-label="Open Geometry of Abstract Learned Knowledge in Deep RL Agents">↗</a>
+          </li>
+          <li class="publication-row reveal">
+            <span class="publication-index">07</span><time>2021</time>
+            <div><h3>Effects of Saltatory Rewards and Generalized Advantage Estimation on Reference-Based Deep Reinforcement Learning of Humanlike Motions</h3><p><strong>M. R. Kabir</strong> · Master's thesis, UTRGV</p></div>
+            <a href="https://scholarworks.utrgv.edu/etd/899/" target="_blank" rel="noopener" aria-label="Open master's thesis">↗</a>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <section class="section-band" id="experience">
+      <div class="shell">
+        <div class="wide-heading reveal">
+          <p class="section-label">03 / Experience</p>
+          <h2>Experience</h2>
+          <p>Research and teaching roles across machine learning, cognitive modeling, and computer science.</p>
+        </div>
+
+        <div class="experience-list">
+          <article class="experience-row reveal">
+            <span class="experience-index">01</span>
+            <div class="experience-meta"><time>Aug 2021 — Present</time><p>Bloomington, IN</p></div>
+            <div class="experience-body">
+              <p class="institution">Indiana University Bloomington</p>
+              <h3>Research Assistant <span>AI, Cognitive Computing, &amp; LLMs</span></h3>
+              <ul>
+                <li>Developed a deep reinforcement learning agent with time-scale invariant memory for temporal decision-making; published at AAAI 2025.</li>
+                <li>Built hierarchical Bayesian models in NumPyro to estimate path-integration error parameters and group differences; published in Science Advances.</li>
+                <li>Study LLM safety failures across RLVR, SFT, and abliteration through behavioral evaluation, representation analysis, and targeted repair experiments.</li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="experience-row reveal">
+            <span class="experience-index">02</span>
+            <div class="experience-meta"><time>Aug 2021 — May 2026</time><p>Bloomington, IN</p></div>
+            <div class="experience-body">
+              <p class="institution">Indiana University Bloomington</p>
+              <h3>Associate Instructor</h3>
+              <ul>
+                <li>Coordinated assessments and grading as head teaching assistant for Data Mining and Applied Algorithms.</li>
+                <li>Supported Machine Learning and Applied Machine Learning through office hours, grading, and individual student guidance.</li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="experience-row reveal">
+            <span class="experience-index">03</span>
+            <div class="experience-meta"><time>Aug 2019 — Jul 2021</time><p>Edinburg, TX</p></div>
+            <div class="experience-body">
+              <p class="institution">University of Texas Rio Grande Valley</p>
+              <h3>Research Assistant <span>Reinforcement Learning</span></h3>
+              <ul>
+                <li>Introduced Saltatory Rewards and integrated GAE into A2C, achieving 1.5× faster convergence in human-like motion learning.</li>
+                <li>Implemented PPO, TRPO, A2C, and DQN from scratch in TensorFlow for controlled comparisons.</li>
+              </ul>
+              <div class="inline-links">
+                <a href="https://github.com/mdrkabir/Policy_Gradient_Methods" target="_blank" rel="noopener">Policy-gradient code ↗</a>
+                <a href="https://github.com/mdrkabir/Temporal_Difference_Learning" target="_blank" rel="noopener">TD-learning code ↗</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="experience-row reveal">
+            <span class="experience-index">04</span>
+            <div class="experience-meta"><time>Aug 2020 — Jul 2021</time><p>Edinburg, TX</p></div>
+            <div class="experience-body">
+              <p class="institution">University of Texas Rio Grande Valley</p>
+              <h3>Teaching Assistant</h3>
+              <ul>
+                <li>Served as lead instructor for Introduction to Computer Science and as grader for Object-Oriented Programming in Java.</li>
+              </ul>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-band technical-section" id="projects">
+      <div class="shell">
+        <div class="wide-heading reveal">
+          <p class="section-label">04 / Projects</p>
+          <h2>Technical Projects</h2>
+          <p>Selected implementations in machine learning, scientific computing, and software development.</p>
+        </div>
+
+        <div class="project-grid project-grid-featured">
+          <article class="project-card project-card-feature reveal">
+            <div><span>01</span><p>Temporal RL / Cognitive AI</p></div>
+            <h3>Timing Tasks with Cognitively Inspired Reinforcement Learning</h3>
+            <p>Built agents for temporal bisection, temporal discrimination, and temporal reproduction using memory representations that remain useful across changes in time scale.</p>
+            <footer>Python · PyTorch · Gymnasium · PyBullet</footer>
+          </article>
+
+          <article class="project-card reveal">
+            <div><span>02</span><p>Bayesian inference / Navigation</p></div>
+            <h3>Path-Integration Cognitive Models</h3>
+            <p>Built maximum-likelihood and hierarchical Bayesian pipelines to identify interpretable sources of navigation error and estimate group differences.</p>
+            <footer>NumPyro · JAX · Pandas · Matplotlib</footer>
+          </article>
+
+          <article class="project-card reveal">
+            <div><span>03</span><p>Deep RL / Human motion</p></div>
+            <h3>Human-Like Motion with Saltatory Rewards</h3>
+            <p>Integrated Saltatory Rewards and generalized advantage estimation into A2C, achieving 1.5× faster convergence in reference-based motion learning.</p>
+            <footer><a href="https://scholarworks.utrgv.edu/etd/899/" target="_blank" rel="noopener">Thesis ↗</a> · TensorFlow · A2C · GAE</footer>
+          </article>
+
+          <article class="project-card reveal">
+            <div><span>04</span><p>RL foundations / Benchmarking</p></div>
+            <h3>Policy-Gradient and Temporal-Difference Learning</h3>
+            <p>Implemented PPO, TRPO, A2C, and DQN from scratch to compare their learning behavior under controlled settings.</p>
+            <footer><a href="https://github.com/mdrkabir/Policy_Gradient_Methods" target="_blank" rel="noopener">PGRL ↗</a> · <a href="https://github.com/mdrkabir/Temporal_Difference_Learning" target="_blank" rel="noopener">TDRL ↗</a></footer>
+          </article>
+
+          <article class="project-card reveal">
+            <div><span>05</span><p>NLP / Unsupervised learning</p></div>
+            <h3>COVID-19 Literature Mining &amp; Clustering</h3>
+            <p>Analyzed more than 340,000 CORD-19 articles using dimensionality reduction, clustering, and topic models to identify recurring research themes.</p>
+            <footer>Python · scikit-learn · Topic modeling</footer>
+          </article>
+
+          <article class="project-card reveal">
+            <div><span>06</span><p>Search / Decision-making</p></div>
+            <h3>Adversarial Game-Playing Agent</h3>
+            <p>Built a Raichu-playing agent with Minimax, alpha-beta pruning, and custom evaluation heuristics under strict time limits.</p>
+            <footer>Python · Minimax · Alpha-beta pruning</footer>
+          </article>
+        </div>
+
+        <div class="project-archive reveal">
+          <div class="archive-heading">
+            <span>Earlier projects</span>
+            <p>Additional work in probabilistic machine learning, simulation, software development, and engineering.</p>
+          </div>
+          <div class="archive-grid">
+            <article><span>07</span><div><h3>Gaussian Process Regression &amp; Kernel Methods</h3><p>Implemented RBF and polynomial kernels from scratch and optimized their hyperparameters with log evidence.</p></div><small>Python / NumPy</small></article>
+            <article><span>08</span><div><h3>Humanoid Biped Gym Environment</h3><p>Built a continuous-control environment with Box(12) actions and Box(32) observations.</p></div><a href="https://github.com/Rysul119/HumanoidBiped" target="_blank" rel="noopener">Code ↗</a></article>
+            <article><span>09</span><div><h3>Home Needs Services Marketplace</h3><p>Developed a full-stack service marketplace with separate frontend and backend applications.</p></div><span class="archive-links"><a href="https://github.com/jsCoder020193/home-needs-services-frontend" target="_blank" rel="noopener">Frontend ↗</a><a href="https://github.com/jsCoder020193/home-needs-backend" target="_blank" rel="noopener">Backend ↗</a></span></article>
+            <article><span>10</span><div><h3>RSA Public-Key Cryptography System</h3><p>Implemented RSA in C++ using Boost multiprecision utilities.</p></div><a href="https://github.com/Rysul119/Cryptography_RSA" target="_blank" rel="noopener">Code ↗</a></article>
+            <article><span>11</span><div><h3>Particle-Tracking Velocimetry</h3><p>Tracked particles and estimated velocity, including measurements within a specified radial distance.</p></div><span class="archive-links"><a href="https://github.com/Rysul119/Velocity-Calculation-from-Tracked-Particles" target="_blank" rel="noopener">Velocity ↗</a><a href="https://github.com/Rysul119/Calculating-Velocity-within-a-Certain-Radial-Distance-from-Tracked-Particles" target="_blank" rel="noopener">Radius ↗</a></span></article>
+          </div>
+        </div>
+
+        <div class="stack-panel reveal">
+          <div class="stack-heading"><span>Technical stack</span><p>Methods and tools</p></div>
+          <div class="stack-grid">
+            <div><h3>Languages</h3><p>Python, C, C++, SQL, R, MATLAB</p></div>
+            <div><h3>Machine Learning</h3><p>Deep learning, reinforcement learning, LLM fine-tuning (SFT, RL), Bayesian modeling</p></div>
+            <div><h3>Frameworks</h3><p>PyTorch, Transformers, NumPyro, scikit-learn, TensorFlow, JAX, NumPy, Pandas, Matplotlib, Seaborn</p></div>
+            <div><h3>Engineering Tools</h3><p>Git, LaTeX, MySQL, PostgreSQL, Linux, HPC / Slurm, GCP Compute Engine, Docker</p></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-band" id="profile">
+      <div class="shell profile-grid">
+        <div class="profile-column">
+          <div class="profile-heading reveal">
+            <p class="section-label">05A / Education</p>
+            <h2>Education</h2>
+          </div>
+          <div class="education-list">
+            <article class="education-row reveal">
+              <span>01</span><div><h3>Indiana University Bloomington</h3><p>Ph.D. in Computer Science</p></div><div><time>Aug 2021 — Present</time><p>CGPA 3.76 / 4.0</p></div>
+            </article>
+            <article class="education-row reveal">
+              <span>02</span><div><h3>University of Texas Rio Grande Valley</h3><p>M.S. in Computer Science</p></div><div><time>Aug 2019 — Jul 2021</time><p>CGPA 4.0 / 4.0</p></div>
+            </article>
+            <article class="education-row reveal">
+              <span>03</span><div><h3>Bangladesh University of Engineering and Technology</h3><p>B.S. in Mechanical Engineering</p></div><div><time>Feb 2013 — Sep 2017</time><p>CGPA 3.71 / 4.0 · Rank 17 / 202</p></div>
+            </article>
+          </div>
+        </div>
+
+        <div class="profile-column">
+          <div class="profile-heading reveal">
+            <p class="section-label">05B / Presentations</p>
+            <h2>Presentations</h2>
+          </div>
+          <ol class="presentation-list">
+            <li class="reveal"><span>2025</span><div><h3>Deep Reinforcement Learning with Time-Scale Invariant Memory</h3><p>AAAI</p></div></li>
+            <li class="reveal"><span>2024</span><div><h3>Towards Time-Scale Invariant Reinforcement Learning</h3><p>Cognitive Computational Neuroscience</p></div></li>
+            <li class="reveal"><span>2024</span><div><h3>Identifying Sources of Path Integration Error Using Bayesian Hierarchical Modeling</h3><p>Interdisciplinary Navigation Symposium</p></div></li>
+            <li class="reveal"><span>2024</span><div><h3>Making Deep Neural Networks Scale-Invariant Using Cognitive Models</h3><p>Context and Episodic Memory Symposium</p></div></li>
           </ol>
         </div>
       </div>
     </section>
 
-    <section id="posters" class="section container reveal collapsible-section">
-      <button class="section-toggle" type="button" aria-expanded="false" aria-controls="posters-content">
-        <span>Posters</span>
-        <span class="toggle-glyph" aria-hidden="true"></span>
-      </button>
-      <div id="posters-content" class="section-content">
-        <div class="section-inner">
-          <ol class="pub-list">
-            <li><strong>Deep reinforcement learning with time-scale invariant memory</strong>, The 39th Annual AAAI Conference on Artificial Intelligence (2025).</li>
-            <li><strong>Towards Time-scale Invariant Reinforcement Learning</strong>, Cognitive Computational Neuroscience (CCN 2024).</li>
-            <li><strong>Identifying sources of path integration error using Bayesian hierarchical modeling</strong>, Interdisciplinary Navigation Symposium (iNAV 2024).</li>
-            <li><strong>Making Deep Neural Networks scale-invariant using cognitive models</strong>, Context and Episodic Memory Symposium (CEMS 2024).</li>
-            <li><strong>Increasing Film Cooling Effectiveness of a Gas Turbine Blade by Using an Upstream Ramp</strong>, International Conference on Mechanical Engineering (ICME 2017).</li>
+    <section class="section-band service-section" id="service">
+      <div class="shell service-layout">
+        <div class="section-intro reveal">
+          <p class="section-label">06 / Service</p>
+          <h2>Academic Service</h2>
+          <p>Reviewer for conferences in machine learning and computational neuroscience.</p>
+        </div>
+
+        <div class="service-list">
+          <article class="service-row reveal">
+            <span>01</span>
+            <div><p>Peer reviewer</p><h3>Neural Information Processing Systems</h3><small>NeurIPS · 2026</small></div>
+            <i aria-hidden="true">REVIEW</i>
+          </article>
+          <article class="service-row reveal">
+            <span>02</span>
+            <div><p>Peer reviewer</p><h3>Cognitive Computational Neuroscience</h3><small>CCN · 2024</small></div>
+            <i aria-hidden="true">REVIEW</i>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-band achievements-section" id="achievements">
+      <div class="shell">
+        <div class="wide-heading reveal">
+          <p class="section-label">07 / Awards &amp; honors</p>
+          <h2>Awards &amp; Honors</h2>
+          <p>Selected awards, scholarships, and academic distinctions.</p>
+        </div>
+
+        <div class="achievement-grid">
+          <article class="achievement-feature reveal">
+            <span>01 / Graduate research</span>
+            <h3>Presidential Graduate Research Assistantship Award</h3>
+            <p>University of Texas Rio Grande Valley</p>
+            <time>2019 — 2021</time>
+          </article>
+          <article class="achievement-feature reveal">
+            <span>02 / Engineering</span>
+            <h3>First Runner-Up, MechBlitz Project Show</h3>
+            <p>Bangladesh University of Engineering and Technology</p>
+            <time>2015</time>
+          </article>
+          <article class="achievement-feature reveal">
+            <span>03 / Academic distinction</span>
+            <h3>Dean’s List, Department of Mechanical Engineering</h3>
+            <p>Bangladesh University of Engineering and Technology</p>
+            <time>2013</time>
+          </article>
+        </div>
+
+        <div class="achievement-ledger reveal">
+          <div class="achievement-ledger-heading"><span>Additional awards</span><p>Scholarships and academic distinctions</p></div>
+          <ol>
+            <li><span>04</span><strong>University Merit</strong><p>BUET · February and November 2013</p></li>
+            <li><span>05</span><strong>University Stipend</strong><p>BUET · 2014</p></li>
+            <li><span>06</span><strong>Technical and Compensatory Scholarship</strong><p>BUET · 2012 — 2016</p></li>
+            <li><span>07</span><strong>Education Assistance Scholarship</strong><p>GTCL · 2006 — 2008 and 2011 — 2016</p></li>
+            <li><span>08</span><strong>Primary Level Scholarship</strong><p>Dhaka Region · 2005</p></li>
           </ol>
         </div>
       </div>
     </section>
 
-    <section id="service" class="section container reveal collapsible-section">
-      <button class="section-toggle" type="button" aria-expanded="false" aria-controls="service-content">
-        <span>Service</span>
-        <span class="toggle-glyph" aria-hidden="true"></span>
-      </button>
-      <div id="service-content" class="section-content">
-        <div class="section-inner">
-          <div class="service-list">
-            <article class="service-item">
-              <h3>Peer Reviewer</h3>
-              <p>Cognitive Computational Neuroscience (CCN 2024)</p>
-            </article>
-          </div>
+    <section class="contact-section" id="contact">
+      <div class="contact-field" aria-hidden="true"></div>
+      <div class="shell contact-grid">
+        <div class="reveal">
+          <p class="section-label">08 / Contact</p>
+          <h2>Contact</h2>
+          <p>I am interested in research scientist, applied scientist, and AI engineering roles, as well as collaborations in LLM safety, reinforcement learning, and cognitive modeling.</p>
         </div>
-      </div>
-    </section>
-
-    <section id="skills" class="section container reveal collapsible-section">
-      <button class="section-toggle" type="button" aria-expanded="false" aria-controls="skills-content">
-        <span>Technical Skills</span>
-        <span class="toggle-glyph" aria-hidden="true"></span>
-      </button>
-      <div id="skills-content" class="section-content">
-        <div class="section-inner">
-          <div class="skills-grid">
-            <article class="skill-block">
-              <h3>Concepts</h3>
-              <div class="logo-cloud">
-                <span class="tech-chip"><img class="tech-logo" src="assets/icons/concept-ml.svg" alt=""> Machine Learning</span>
-                <span class="tech-chip"><img class="tech-logo" src="assets/icons/concept-dl.svg" alt=""> Deep Learning</span>
-                <span class="tech-chip"><img class="tech-logo" src="assets/icons/concept-rl.svg" alt=""> Reinforcement Learning</span>
-                <span class="tech-chip"><img class="tech-logo" src="assets/icons/concept-data-mining.svg" alt=""> Data Mining</span>
-                <span class="tech-chip"><img class="tech-logo" src="assets/icons/concept-llm-finetuning.svg" alt=""> LLM Fine-Tuning</span>
-                <span class="tech-chip"><img class="tech-logo" src="assets/icons/concept-bayesian.svg" alt=""> Bayesian Modeling</span>
-              </div>
-            </article>
-
-            <article class="skill-block">
-              <h3>Programming Languages</h3>
-              <div class="logo-cloud">
-                <span class="tech-chip"><img class="tech-logo" src="assets/icons/python.svg" alt=""> Python</span>
-                <span class="tech-chip"><img class="tech-logo" src="assets/icons/c.svg" alt=""> C</span>
-                <span class="tech-chip"><img class="tech-logo" src="assets/icons/cplusplus.svg" alt=""> C++</span>
-                <span class="tech-chip"><img class="tech-logo" src="assets/icons/r.svg" alt=""> R</span>
-                <span class="tech-chip"><img class="tech-logo" src="assets/icons/matlab.svg" alt=""> MATLAB</span>
-                <span class="tech-chip"><img class="tech-logo" src="assets/icons/javascript.svg" alt=""> JavaScript</span>
-                <span class="tech-chip"><img class="tech-logo" src="assets/icons/sql.svg" alt=""> SQL</span>
-              </div>
-            </article>
-
-            <article class="skill-block">
-              <h3>Frameworks & Libraries</h3>
-              <div class="logo-cloud">
-                <span class="tech-chip"><img class="tech-logo" src="assets/icons/pytorch.svg" alt=""> PyTorch</span>
-                <span class="tech-chip"><img class="tech-logo" src="assets/icons/tensorflow.svg" alt=""> TensorFlow</span>
-                <span class="tech-chip"><img class="tech-logo" src="assets/icons/scikitlearn.svg" alt=""> scikit-learn</span>
-                <span class="tech-chip"><img class="tech-logo" src="assets/icons/numpy.svg" alt=""> NumPy</span>
-                <span class="tech-chip"><img class="tech-logo" src="assets/icons/pandas.svg" alt=""> Pandas</span>
-                <span class="tech-chip"><img class="tech-logo" src="assets/icons/jax.png" alt=""> JAX</span>
-                <span class="tech-chip"><img class="tech-logo" src="assets/icons/numpyro.png" alt=""> NumPyro</span>
-                <span class="tech-chip"><img class="tech-logo" src="assets/icons/matplotlib.svg" alt=""> Matplotlib</span>
-                <span class="tech-chip"><img class="tech-logo" src="assets/icons/seaborn.png" alt=""> Seaborn</span>
-              </div>
-            </article>
-
-            <article class="skill-block">
-              <h3>Systems and Platforms</h3>
-              <div class="logo-cloud">
-                <span class="tech-chip"><img class="tech-logo" src="assets/icons/linux.svg" alt=""> Linux</span>
-                <span class="tech-chip"><img class="tech-logo" src="assets/icons/bash.svg" alt=""> Bash / Zsh</span>
-                <span class="tech-chip"><img class="tech-logo" src="assets/icons/docker.svg" alt=""> Docker</span>
-                <span class="tech-chip"><img class="tech-logo" src="assets/icons/git.svg" alt=""> Git</span>
-                <span class="tech-chip"><img class="tech-logo" src="assets/icons/googlecloud.svg" alt=""> GCP</span>
-                <span class="tech-chip"><img class="tech-logo" src="assets/icons/postgresql.svg" alt=""> PostgreSQL</span>
-                <span class="tech-chip"><img class="tech-logo" src="assets/icons/mysql.svg" alt=""> MySQL</span>
-                <span class="tech-chip"><img class="tech-logo" src="assets/icons/slurm.png" alt=""> Slurm/HPC</span>
-                <span class="tech-chip"><img class="tech-logo" src="assets/icons/latex.svg" alt=""> LaTeX</span>
-              </div>
-            </article>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section id="education" class="section container reveal collapsible-section">
-      <button class="section-toggle" type="button" aria-expanded="false" aria-controls="education-content">
-        <span>Education</span>
-        <span class="toggle-glyph" aria-hidden="true"></span>
-      </button>
-      <div id="education-content" class="section-content">
-        <div class="section-inner">
-          <div class="info-rows">
-            <article class="info-row">
-              <div>
-                <h3>Indiana University Bloomington</h3>
-                <p>Ph.D. in Computer Science</p>
-              </div>
-              <div class="row-meta">
-                <span>Aug 2021 - Present</span>
-                <span>CGPA: 3.73/4.0</span>
-              </div>
-            </article>
-            <article class="info-row">
-              <div>
-                <h3>University of Texas Rio Grande Valley</h3>
-                <p>Master of Science in Computer Science</p>
-              </div>
-              <div class="row-meta">
-                <span>Aug 2019 - Jul 2021</span>
-                <span>CGPA: 4.0/4.0</span>
-              </div>
-            </article>
-            <article class="info-row">
-              <div>
-                <h3>Bangladesh University of Engineering and Technology</h3>
-                <p>Bachelor of Science in Mechanical Engineering</p>
-              </div>
-              <div class="row-meta">
-                <span>Feb 2013 - Sep 2017</span>
-                <span>CGPA: 3.71/4.0 | Rank: 17/202</span>
-              </div>
-            </article>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section id="awards" class="section container reveal collapsible-section">
-      <button class="section-toggle" type="button" aria-expanded="false" aria-controls="awards-content">
-        <span>Awards & Scholarships</span>
-        <span class="toggle-glyph" aria-hidden="true"></span>
-      </button>
-      <div id="awards-content" class="section-content">
-        <div class="section-inner">
-          <div class="info-rows">
-            <article class="info-row tight">
-              <h3>Presidential Graduate Research Assistantship Award, UTRGV</h3>
-              <div class="row-meta"><span>2019 - 2021</span></div>
-            </article>
-            <article class="info-row tight">
-              <h3>1st Runners Up, Project Show at MechBlitz, BUET</h3>
-              <div class="row-meta"><span>2015</span></div>
-            </article>
-            <article class="info-row tight">
-              <h3>University Merit, BUET</h3>
-              <div class="row-meta"><span>Feb and Nov 2013</span></div>
-            </article>
-            <article class="info-row tight">
-              <h3>University Stipend, BUET</h3>
-              <div class="row-meta"><span>2014</span></div>
-            </article>
-            <article class="info-row tight">
-              <h3>Dean's List, Department of Mechanical Engineering, BUET</h3>
-              <div class="row-meta"><span>2013</span></div>
-            </article>
-            <article class="info-row tight">
-              <h3>Technical and Compensatory Scholarship, BUET</h3>
-              <div class="row-meta"><span>2012 - 2016</span></div>
-            </article>
-            <article class="info-row tight">
-              <h3>Education Assistance Scholarship, GTCL</h3>
-              <div class="row-meta"><span>2006 - 2008, 2011 - 2016</span></div>
-            </article>
-            <article class="info-row tight">
-              <h3>Primary Level Scholarship, Dhaka Region</h3>
-              <div class="row-meta"><span>2005</span></div>
-            </article>
-          </div>
+        <div class="contact-links reveal">
+          <a href="mailto:rysulbuet12@gmail.com"><span>Email</span><strong>rysulbuet12@gmail.com</strong><i aria-hidden="true">↗</i></a>
+          <a href="https://www.linkedin.com/in/mdrysulkabir/" target="_blank" rel="noopener"><span>Network</span><strong>LinkedIn</strong><i aria-hidden="true">↗</i></a>
+          <a href="https://github.com/mdrkabir" target="_blank" rel="noopener"><span>Code</span><strong>GitHub</strong><i aria-hidden="true">↗</i></a>
+          <a href="https://scholar.google.com/citations?user=-BT9-3AAAAAJ&hl=en" target="_blank" rel="noopener"><span>Research</span><strong>Google Scholar</strong><i aria-hidden="true">↗</i></a>
+          <a href="assets/Md_Rysul_Kabir_resume.pdf" target="_blank" rel="noopener" aria-label="Open Résumé PDF in a new tab"><span>PDF</span><strong>Résumé</strong><i aria-hidden="true">↗</i></a>
+          <a href="assets/Md_Rysul_Kabir_CV.pdf" target="_blank" rel="noopener" aria-label="Open Academic CV PDF in a new tab"><span>PDF</span><strong>Academic CV</strong><i aria-hidden="true">↗</i></a>
         </div>
       </div>
     </section>
   </main>
 
   <footer class="site-footer">
-    <div class="container">
-      <p>&copy; <span id="year"></span> Md Rysul Kabir</p>
+    <div class="shell footer-grid">
+      <p>© <span id="year"></span> Md Rysul Kabir</p>
+      <p>AI Research / Applied ML / Engineering</p>
+      <a href="#top">Back to top ↑</a>
     </div>
   </footer>
 
