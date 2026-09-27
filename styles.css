@@ -785,7 +785,9 @@ main section[id] {
 
 .focus-panel dl > div {
   display: grid;
-  grid-template-columns: 36px 1fr;
+  grid-template-columns: 36px minmax(0, 1fr);
+  /* Align each number with the first text line, including wrapped labels. */
+  align-items: baseline;
   gap: 12px;
   padding: 12px 17px;
   border-bottom: 1px solid var(--line-faint);
